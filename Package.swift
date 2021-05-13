@@ -16,10 +16,6 @@ let package = Package(
             targets: ["GoogleMobileAdsTarget"]),
     ],
     dependencies: [
-        .package(name: "GoogleAppMeasurement",
-                 url: "https://github.com/google/GoogleAppMeasurement.git",
-                 from:  "7.0.0"
-        ),
         .package(name: "GoogleUserMessagingPlatform",
                  url: "https://github.com/quanghits/GoogleUserMessagingPlatform.git",
                  from: "1.1.0")
@@ -30,7 +26,6 @@ let package = Package(
                 dependencies: [
                     .target(name: "GoogleMobileAds"),
                     .product(name: "UserMessagingPlatform", package: "GoogleUserMessagingPlatform"),
-                    .product(name: "GoogleAppMeasurement", package: "GoogleAppMeasurement"),
                 ],
                 path: "Sources",
                 linkerSettings: [
