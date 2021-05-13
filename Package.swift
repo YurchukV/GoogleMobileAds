@@ -48,9 +48,6 @@ let package = Package(
                 ]),
         .binaryTarget(
             name: "GoogleMobileAds",
-            path: "Binary/GoogleMobileAds.xcframework"),
-//        .binaryTarget(name: "GoogleMobileAdsBinary",
-//                      url: "",
-//                      checksum: "),
+            path: "Binary/GoogleMobileAds.xcframework")
     ]
 )
