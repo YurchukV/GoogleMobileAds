@@ -17,8 +17,8 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "GoogleUserMessagingPlatform",
-                 url: "https://github.com/quanghits/GoogleUserMessagingPlatform.git",
-                 from: "1.1.0")
+                 url: "https://github.com/YurchukV/GoogleUserMessagingPlatform.git",
+                 from: "2.0.0")
         
     ],
     targets: [

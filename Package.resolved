@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "GoogleUserMessagingPlatform",
-        "repositoryURL": "https://github.com/quanghits/GoogleUserMessagingPlatform.git",
+        "repositoryURL": "https://github.com/YurchukV/GoogleUserMessagingPlatform.git",
         "state": {
           "branch": null,
-          "revision": "f322d91b6b0497b727b228a5fa5b9394e7886d3a",
-          "version": "1.2.0"
+          "revision": "8a4ad8d7cec830f4e594165132c7b91781c3283d",
+          "version": "2.0.0"
         }
       }
     ]
